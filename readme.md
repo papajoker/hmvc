@@ -27,7 +27,7 @@ Add `'Papajoker\Hmvc\HmvcServiceProvider',` to the list of service providers in 
 
 create your hmvc file in /app/views/
 
-```<?php // app/view/myrss.hmvc
+``` <?php // app/view/myrss.hmvc
 return array(
 	'controller' => 'RssController', 	// your controller in app/controllers/ or package/controller
 	'action' => 'index',				// method controller
@@ -37,7 +37,7 @@ return array(
 		'max' => 12
 	)
 );
-```
+``` 
 
 in your blade views :
 ```@section('content')
