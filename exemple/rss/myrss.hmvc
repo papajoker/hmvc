@@ -1,0 +1,9 @@
+<?php
+return array(
+	'controller' => 'RssController',
+	'action' => 'index',
+	'attr' => array( // can overwrite in blade view with @include ('.hmvc',$attr)
+		'url' =>    'http://www.planet-php.fr/rss.php',
+		'max' => 12
+	)
+);
