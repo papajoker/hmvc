@@ -1,10 +1,11 @@
 {
     "name": "papajoker/hmvc",
-    "description": "",
+    "description": "Laravel 4 pakage for uses controllers-views in a  architectural Hmvc",
+    "keywords": ["hmvc", "laravel"],
+    "license": "MIT",
     "authors": [
         {
-            "name": "papajoker",
-            "email": "info@laravel.fr"
+            "name": "papajoker"
         }
     ],
     "require": {

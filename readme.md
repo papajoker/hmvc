@@ -26,9 +26,8 @@ Add `'Papajoker\Hmvc\HmvcServiceProvider',` to the list of service providers in 
 ## usage
 
 create your hmvc file in /app/views/
-
-``` <?php // app/view/myrss.hmvc
-return array(
+    <php // app/view/myrss.hmvc
+    return array(
 	'controller' => 'RssController', 	// your controller in app/controllers/ or package/controller
 	'action' => 'index',				// method controller
 										// attr pass as parameters in action
@@ -36,17 +35,17 @@ return array(
 		'url' =>    'http://www.planet-php.fr/rss.php',
 		'max' => 12
 	)
-);
-``` 
+    );
+
 
 in your blade views :
-```@section('content')
+    @section('content')
 	<h4>test a rss built in my page as hmvc</h4>
 	<div class="rss" width="45%">
 		@include ( 'myrss' , array('max'=>4) )
 	</div>
-@stop
-```
+    @stop
+
 
 ## exemple
  in /exemple you have a small rss
